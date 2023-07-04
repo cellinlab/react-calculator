@@ -1,0 +1,15 @@
+.cal_display {
+  width: 100%;
+  background-color: #858694;
+  color: white;
+  text-align: right;
+  font-weight: 200;
+  flex: 0 0 auto;
+  .text {
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem;
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+}

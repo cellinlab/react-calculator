@@ -1,0 +1,28 @@
+.cal_btn {
+  width: 25%;
+  display: inline-flex;
+  flex: 1 0 auto;
+  &:last-child {
+    button {
+      margin-right: 0;
+    }
+  }
+  button {
+    margin: 0 1px 0 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    border: 0;
+    font-size: 1.5rem;
+    flex: 1 0 auto;
+    cursor: pointer;
+  }
+}
+.wide {
+  width: 50%;
+}
+.orange {
+  button {
+    background-color: #f5923e;
+    color: white;
+  }
+}
